@@ -1,18 +1,36 @@
-# Creating accessible webpages
+# Creating Accessible Webpages
 
 > The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.
 >
-> \- Tim Berners-Lee, W3C Director and inventor of the World Wide Web
+> \- Sir Timothy Berners-Lee, W3C Director and inventor of the World Wide Web
 
-Tim perfectly highlights the importance of creating accessible websites. An application which can't be accessed by all is by definition exclusionary. As web developers we should always have accessibility in mind. By having this focus from the beginning you will be well on your way to ensure everyone can access the pages you create.
+This quote perfectly highlights the importance of creating accessible websites. An application that can't be accessed by all is by definition exclusionary. As web developers we should always have accessibility in mind. By having this focus from the beginning you will be well on your way to ensure everyone can access the pages you create. In this lesson, you'll learn about the tools that can help you ensure that your web assets are accessible and how to build with accessibility in mind. 
 
-## Screen readers
+## Tools to use
+
+### Screen readers
+
+One of the best-known accessibility tools are screen readers.
 
 [Screen readers](https://en.wikipedia.org/wiki/Screen_reader) are commonly used clients for those with vision impairments. Just as we spend time ensuring a browser properly conveys the information we wish to share, we must also ensure a screen reader does the same.
 
-At its most basic, a screen reader will read a page from top to bottom. If your page is all text, the reader will convey the information in a similar fashion to a browser. Of course, web pages are rarely purely text; they will contain links, graphics, color, and other visual components. Care must be taken to ensure our information is read correctly by a screen reader.
+At its most basic, a screen reader will read a page from top to bottom audibly. If your page is all text, the reader will convey the information in a similar fashion to a browser. Of course, web pages are rarely purely text; they will contain links, graphics, color, and other visual components. Care must be taken to ensure that this information is read correctly by a screen reader.
 
 Every web developer should familiarize themselves with a screen reader. As highlighted above, it's the client your users will utilize. Much in the same way you're familiar with how a browser operates, you should learn how a screen reader operates. Fortunately screen readers are built into most operating systems, and many browsers contain extensions to emulate a screen reader.
+
+✅ Try a screen reader browser extension or tool. One that works on Windows only is [JAWS](https://webaim.org/articles/jaws/). Browsers also have built-in tools that can be used for this purpose; check out [these accessibility-focused Edge browser tools](https://support.microsoft.com/en-us/help/4000734/microsoft-edge-accessibility-features).
+
+### Contrast checkers
+
+Colors on web sites need to be carefully chosen to  answer the needs of color-blind users or people who have  difficulty seeing low-contrast colors.
+
+✅ Test a web site you enjoy using for color usage with a browser extension such as [WCAG's color checker](https://microsoftedge.microsoft.com/addons/detail/wcag-color-contrast-check/idahaggnlnekelhgplklhfpchbfdmkjp?hl=en-US). What do you learn?
+
+### Lighthouse
+
+In the developer tool area of your browser, you'll find the Lighthouse tool. This tool is important to get a first view of the accessibility (as well as other analysis) of a web site. While it's important not to rely exclusively on Lighthouse, a 100% score is very helpful as a baseline.
+
+✅ Find Lighthouse in your browser's developer tool panel and run an analysis on any site. what do you discover?
 
 ## Designing for accessibility
 
@@ -20,7 +38,7 @@ Accessibility is a relatively large topic. To help you out, there are numerous r
 
 - [Accessible U - University of Minnesota](https://accessibility.umn.edu/your-role/web-developers)
 
-While we won't be able to cover every aspect of creating accessible sites, below are some of the core tenants you will want to implement. Designing an accessible page from the start is **always** easier than going back to an existing page to make it accessible.
+While we won't be able to cover every aspect of creating accessible sites, below are some of the core tenets you will want to implement. Designing an accessible page from the start is **always** easier than going back to an existing page to make it accessible.
 
 ## Good display principles
 
@@ -28,15 +46,19 @@ While we won't be able to cover every aspect of creating accessible sites, below
 
 People see the world in different ways, and this includes colors. When selecting a color scheme for your site, you should ensure it's accessible to all. One great [tool for generating color palettes is Color Safe](http://colorsafe.co/).
 
+✅ Identify a web site that is very problematic in its use of color. Why?
+
 ### Properly highlight text
 
 Highlighting text by color, [font weight](https://developer.mozilla.org/docs/Web/CSS/font-weight), or other [text decoration](https://developer.mozilla.org/docs/Web/CSS/text-decoration) does not inherently inform a screen reader of its importance. A word could be bold because it's a key word, or simply because its the first word and the designer decided it should be bold.
 
-When a particular phrase needs to be highlighted, use the `<strong>` or `<em>` elements. These will indicate to a screen reader those items are important.
+When a particular phrase needs to be highlighted, use the `<strong>` or `<em>` elements. These will indicate to a screen reader that those items are important.
 
 ### Use the correct HTML
 
-With CSS and JavaScript it's possible to many any element look like any type of control. `<span>` could be used to create a `<button>`, and `<b>` could become a hyperlink. While this might be cute, it's baffling to a screen reader. Use the appropriate HTML when creating controls on a page. If you want a hyperlink, use `<a>`.
+With CSS and JavaScript it's possible to many any element look like any type of control. `<span>` could be used to create a `<button>`, and `<b>` could become a hyperlink. While this might be considered easier to style, it's baffling to a screen reader. Use the appropriate HTML when creating controls on a page. If you want a hyperlink, use `<a>`. Using the right HTML for the right control is called making use of Semantic HTML.
+
+✅ Go to any web site and see if the designers and developers are using HTML properly. Can you find a button that should be a link? Hint: right click and choose 'View Page Source' in your browser to look at underlying code.
 
 ### Use good visual clues
 
@@ -72,17 +94,19 @@ Good link text briefly describes what's on the other side of the link. In the ab
 
 > The [little penguin](https://en.wikipedia.org/wiki/Little_penguin), sometimes known as the fairy penguin, is the smallest penguin in the world.
 
+✅ Surf the web for a few minutes to find pages that use obscure linking strategies. Compare them with other, better-linked sites. What do you learn?
+
 #### Search engine notes
 
 As an added bonus for ensuring your site is accessible to all, you'll help search engines navigate your site as well. Search engines use link text to learn the topics of pages. So using good link text helps everyone!
 
-### Managing duplicated titles
+### ARIA
 
 Imagine the following page:
 
-| Product | Description | Order |
-| ------- | ------- | ------- |
-| Widget | [Description]('#') | [Order]('#') |
+| Product      | Description        | Order        |
+| ------------ | ------------------ | ------------ |
+| Widget       | [Description]('#') | [Order]('#') |
 | Super widget | [Description]('#') | [Order]('#') |
 
 In this example, duplicating the text of description and order make sense for someone using a browser. However, someone using a screen reader would only hear the words *description* and *order* repeated without context.
@@ -97,16 +121,81 @@ You can use `aria-label` to describe the link when the format of the page doesn'
 <a href="#" aria-label="Widget description">description</a>
 ```
 
+✅ In general, using Semantic markup as described above supersedes the use of ARIA, but sometimes there is no semantic equivalent for various HTML widgets. A good example is a Progressbar. There's no HTML equivalent for a progress bar, so you identify the generic `<div>` for this element with a proper role and aria values. The [MDN documentation on ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) contains more useful information.
+
+```html
+<div id="percent-loaded" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+</div>
+```
+
 ## Images
 
 It goes without saying screen readers are unable to automatically read what's in an image. Ensuring images are accessible doesn't take much work - it's what the `alt` attribute is all about. All images should have an `alt` to describe what they are.
 
-### Search engine notes
+✅ As you might expect, search engines are also unable to understand what's in an image. They also use alt text. So once again, ensuring your page is accessible provides additional bonuses!
 
-As you might expect, search engines are also unable to understand what's in an image. They also use alt text. So once again, ensuring your page is accessible provides additional bonuses!
+## The keyboard
+
+Some users are unable to use a mouse or trackpad, instead relying on keyboard interactions to tab from one element to the next. It's important for your web site to present your content in logical order so a keyboard can access each element as the user moves down a document. If you build your web pages with semantic markup and use CSS to style their visual layout, your site should be keyboard-navigable, but it's important to test this aspect manually. Learn more about [keyboard navigation strategies](https://webaim.org/techniques/keyboard/).
+
+✅ Go to any web site and try to navigate through it using only your tab key. What works, what doesn't work? Why?
 
 ## Summary
 
-A web accessible to some is a web accessible to none. The best way to ensure the sites you create are accessible is to incorporate the design from the start. While there are extra steps involved, incorporating these skills into your workflow now will mean all pages you create will be accessible.
+A web accessible to some is not a truly 'world-wide web'. The best way to ensure the sites you create are accessible is to incorporate accessibility best practices from the start. While there are extra steps involved, incorporating these skills into your workflow now will mean all pages you create will be accessible.
+
+🚀 Challenge: Take this HTML, and rewrite it to be as accessible as possible, given the topics you learned.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Example
+    </title>
+    <link href='../assets/style.css' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="site-header">
+      <p class="site-title">Turtle Ipsum</p>
+      <p class="site-subtitle">The World's Premier Turtle Fan Club</p>
+    </div>
+    <div class="main-nav">
+      <p class="nav-header">Resources</p>
+      <div class="nav-list">
+        <p class="nav-item nav-item-bull"><a href="https://www.youtube.com/watch?v=CMNry4PE93Y">"I like turtles"</a></p>
+        <p class="nav-item nav-item-bull"><a href="https://en.wikipedia.org/wiki/Turtle">Basic Turtle Info</a></p>
+        <p class="nav-item nav-item-bull"><a href="https://en.wikipedia.org/wiki/Turtles_(chocolate)">Chocolate Turtles</a></p>
+      </div>
+    </div>
+    <div class="main-content">
+      <div>
+        <p class="page-title">Welcome to Turtle Ipsum. 
+            <a href="">Click here</a> to learn more.
+        </p>
+        <p class="article-text">
+          Turtle ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-section">
+        <span class="button">Sign up for turtle news</span>
+      </div><div class="footer-section">
+        <p class="nav-header footer-title">
+          Internal Pages
+        </p>
+        <div class="nav-list">
+          <p class="nav-item nav-item-bull"><a href="../">Index</a></p>
+          <p class="nav-item nav-item-bull"><a href="../semantic">Semantic Example</a></p>
+        </div>
+      </div>
+      <p class="footer-copyright">&copy; 2016 Instrument</span>
+    </div>
+  </body>
+</html>
+```
+
+Credits: [Turtle Ipsum](https://github.com/Instrument/semantic-html-sample) by Instrument
 
 > Author: Christopher Harrison

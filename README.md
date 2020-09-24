@@ -1,53 +1,15 @@
-# [Lesson Topic]
+# Getting Started with Web Development
 
-![Embed a video here](video-url)
+In this section of the curriculum, you will be introduced to basic, non project-based concepts important to becoming a professional developer.
 
-[Create slides based on the written content](slides.pptx)
+### Topics
 
-## [Pre-lecture quiz](.github/pre-lecture-quiz.md)
+1. [Introduction to Programming Languages](intro-to-programming-languages/README.md)
+2. [Tools of the Trade](tools-of-the-trade/README.md)
+3. [Basics of GitHub](github-basics/README.md)
+4. [Basics of Accessibility](./accessibility/README.md)
 
-[Describe what we will learn]
+### Credits
 
-### Introduction
+Basics of Accessibility was written with ♥️ by [Christopher Harrison](https://twitter.com/geektrainer)
 
-Describe what will be covered
-
-> Notes
-
-### Prerequisite
-
-What steps should have been covered before this lesson?
-
-### Preparation
-
-Preparatory steps to start this lesson
-
----
-
-[Step through content in blocks]
-
-## [Topic 1]
-
-### Task:
-
-Work together to progressively enhance your codebase to build the project with shared code:
-
-```html
-code blocks
-```
-
-✅ Knowledge Check - use this moment to stretch students' knowledge with open questions
-
-## [Topic 2]
-
-## [Topic 3]
-
-🚀 Challenge: Add a challenge for students to work on collaboratively in class to enhance the project
-
-Optional: add a screenshot of the completed lesson's UI if appropriate
-
-## [Post-lecture quiz](.github/post-lecture-quiz.md)
-
-## Review & Self Study
-
-**Assignment Due [MM/YY]**: [Assignment Name](assignment.md)
