@@ -196,6 +196,8 @@ A web accessible to some is not a truly 'world-wide web'. The best way to ensure
 </html>
 ```
 
+![Sketchnote summary](webdev101-a11y.png)
+
 **Assignment**: [Assignment Name](assignment.md)
 
 Credits: [Turtle Ipsum](https://github.com/Instrument/semantic-html-sample) by Instrument
