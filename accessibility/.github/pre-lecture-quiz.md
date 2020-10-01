@@ -11,7 +11,7 @@
 - [ ] [true]
 - [ ] [false]
 
-1. [Accessibility is only important on government web sites]
+3. [Accessibility is only important on government web sites]
    
 - [ ] [true]
 - [ ] [false]
