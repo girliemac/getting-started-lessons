@@ -1,24 +1,17 @@
-*Complete this quiz along with your submission by checking one answer per question.*
+*Complete this quiz by checking one answer per question.*
 
-You will need to complete the following learn module(s) to complete the quiz:
+1. [Lighthouse only checks for accessibility problems]
 
-[Learn Link 1]()
-[Learn Link 2]()
+- [ ] [true]
+- [ ] [false]
 
-1. [Q1]
+2. [Color-safe palettes help people with]
 
-- [ ] [Option 1]
-- [ ] [Option 2]
-- [ ] [Option 3]
+- [ ] [color-blindness]
+- [ ] [visual impairments]
+- [ ] [both the above]
 
-2. [Q2]
-
-- [ ] [Option 1]
-- [ ] [Option 2]
-- [ ] [Option 3]
-
-3. [Q3]
+3. [Descriptive links are vital for accessible web sites]
    
-- [ ] [Option 1]
-- [ ] [Option 2]
-- [ ] [Option 3]
+- [ ] [true]
+- [ ] [false]
