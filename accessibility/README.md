@@ -3,6 +3,8 @@
 ![All About Accessibility](webdev101-a11y.png)
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
+## [Pre-lecture quiz](.github/pre-lecture-quiz.md)
+
 > The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.
 >
 > \- Sir Timothy Berners-Lee, W3C Director and inventor of the World Wide Web
@@ -199,7 +201,11 @@ A web accessible to some is not a truly 'world-wide web'. The best way to ensure
 </html>
 ```
 
-**Assignment**: [Assignment Name](assignment.md)
+## [Post-lecture quiz](.github/post-lecture-quiz.md)
+
+## Review & Self Study
+
+**Assignment**: [Analyze a non-accessible web site](assignment.md)
 
 Credits: [Turtle Ipsum](https://github.com/Instrument/semantic-html-sample) by Instrument
 
