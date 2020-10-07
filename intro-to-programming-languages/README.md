@@ -1,6 +1,6 @@
-# [Lesson Topic]
+# Introduction to Programming Languages and Tools of the Trade
 
-This lesson covers the basics programming languages; the topics covered here apply to most modern programming languages today.  
+This lesson covers the basics programming languages. The topics covered here apply to most modern programming languages today.
 
 ## [Pre-lecture quiz](.github/pre-lecture-quiz.md)
 
@@ -12,7 +12,6 @@ In this lesson, we'll cover:
 - Basic elements of a program
 
 > Notes
- 
 
 ### Preparation
 
@@ -27,7 +26,7 @@ Demo repository / folder, locally as well as remote
 
 Programming (also known as coding) is the process of writing instructions to a device, such as a computer or mobile device. We write these instructions with a programming language, which is then interpreted by the device. These set of instructions may be referred to by various names, but *program*, *computer program*, *application (app)*, and *executable* are a few popular names.
 
-A *program* can be anything that is written with code; websites, games, and phone apps are programs. While it's possible to create a program without writing code, the underlying logic is interpreted to the device and that logic was most likely written with code.
+A *program* can be anything that is written with code; websites, games, and phone apps are programs. While it's possible to create a program without writing code, the underlying logic is interpreted to the device and that logic was most likely written with code. A program that is *running* or *executing code*, is carrying out instructions. The device that you're currently reading this lesson with is running a program to print it to your screen.
 
 ## Programming Languages
 
@@ -80,9 +79,15 @@ Believe it or not, *they're both doing the same thing*: printing the fibonnachi 
 
 ## Elements of a program
 
-*Statements*
+A single instruction in a program is called a *statement* and will usually have a charachter or line spacing that marks where the instruction ends, or *terminates*. How a program terminates varies with each language.
 
-*Variables*
+Most programs rely on using data from a user or elsewhere, where statements may rely on data to carry out instructions. Data can change how a program behaves, so programming languages come with a way to temporarily store data that can be used later called *variables*. Variables are statements that instruct a device to save data in its memory. Variables in programs are similar to ones in algebra, where they have a unique name and it value may change over time.
+
+*Control*
+Statemtents can change how a program executes code.
+
+### Putting it all together
+
 
 
 ## Review & Self Study
