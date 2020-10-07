@@ -25,17 +25,17 @@ Demo repository / folder, locally as well as remote
 
 ## What is Programming?
 
-Programming (also known as coding) is the process of writing instructions to a device, such as a computer or mobile device. We write these instructions with a programming language, and are interpreted by the device. These set of instructions may be referred to by various names, but *program*, *computer program*, *application (app)*, and *executeable* are a few popular names.
+Programming (also known as coding) is the process of writing instructions to a device, such as a computer or mobile device. We write these instructions with a programming language, which is then interpreted by the device. These set of instructions may be referred to by various names, but *program*, *computer program*, *application (app)*, and *executable* are a few popular names.
 
-A *program* can be anything that is written with code; websites, games, and phone apps are programs. While it's possible to createsa program without writing code, the underlying logic is interprted to the device and that logic was most likely written with code.
+A *program* can be anything that is written with code; websites, games, and phone apps are programs. While it's possible to create a program without writing code, the underlying logic is interpreted to the device and that logic was most likely written with code.
 
 ## Programming Languages
 
 Programming languages serve a main purpose: for developers to build instructions to send to a device. Devices only can understand binary (1s and 0s), and for *most* developers that's not a very efficient way to communicate. Programming languages are a vehicle for communication between a humans and computers.
 
-Programming languages come in different formats and may serve different purposes. For example, JavaScript is primarily used for web applications, while Bash is primarly used for operating systems.
+Programming languages come in different formats and may serve different purposes. For example, JavaScript is primarily used for web applications, while Bash is primarily used for operating systems.
 
-*Low level languages* typically require fewer steps than *high level languages* for a device to interperet instructions. However, what makes high level languages popular is its readbility and support. JavaScript is considered a high level language.
+*Low level languages* typically require fewer steps than *high level languages* for a device to interpret instructions. However, what makes high level languages popular is its readability and support. JavaScript is considered a high level language.
 
 The following code illustrates the difference between a high level language with JavaScript and low level language with ARM assembly code.
 
