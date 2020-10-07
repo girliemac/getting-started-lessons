@@ -205,6 +205,8 @@ A web accessible to some is not a truly 'world-wide web'. The best way to ensure
 
 ## Review & Self Study
 
+Many governments have laws regarding accessibility requirements. Read up on your home country's accessibility laws. What is covered, and what isn't? An example is [this government web site](https://accessibility.blog.gov.uk/) from the UK.
+
 **Assignment**: [Analyze a non-accessible web site](assignment.md)
 
 Credits: [Turtle Ipsum](https://github.com/Instrument/semantic-html-sample) by Instrument
