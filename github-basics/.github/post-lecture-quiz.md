@@ -5,20 +5,20 @@ You will need to complete the following learn module(s) to complete the quiz:
 [Learn Link 1]()
 [Learn Link 2]()
 
-1. [Q1]
+1. The following sentence describes what? A place to compare and discuss the differences introduced on a branch with reviews, comments, integrated tests, and more
 
-- [ ] [Option 1]
-- [ ] [Option 2]
-- [ ] [Option 3]
+- [ ] GitHub
+- [ ] Pull Request
+- [ ] A feature branch
 
-2. [Q2]
+2. How would you get all commits from a remote branch?
 
-- [ ] [Option 1]
-- [ ] [Option 2]
-- [ ] [Option 3]
+- [ ] `git fetch`
+- [ ] `git pull`
+- [ ] `git commits -r`
 
-3. [Q3]
+3. How do you switch to a branch?
    
-- [ ] [Option 1]
-- [ ] [Option 2]
-- [ ] [Option 3]
+- [ ] `git switch [branch-name]`
+- [ ] `git checkout [branch-name]`
+- [ ] `git load [branch-name]`
