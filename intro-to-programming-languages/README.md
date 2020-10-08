@@ -86,25 +86,29 @@ There's a chance that some statements will not be executed by a device. This is 
 
 In this section, you'll learn about some software that you might find very useful as you start your professional development journey.
 
+A **development environment** is a unique set of tools and features that a developer will use often when writing software. Some of these tools have been customized for a developer specific needs, and may change over time if a developer changes priorities in work or personal projects, or when they use a different programming language. Development environments are as unique as the developers who use them.
+
 ### Editors
 
 One of the most crucial tools for software development is the editor. Editors are where you write your code and sometimes where you will run your code.
 
 Developers rely on editors for a few additional reasons:
 
-- *Debugging* Discovering bugs and errors by stepping through code, line by line.
-- *Syntax highlighting* Adds colors to code, makes it easier to read. Most editors allow customized syntax highliting.
-- *Browser Extensions and Integrations* Additions that are specialized for developers, by developers for access to additional tools that aren't built into the base editor.
-- *Customization* The great thing about most editors is that they're extremely customizeable, and each developer will have their own unique development environment that suits their needs.
+- *Debugging* Discovering bugs and errors by stepping through code, line by line. Some editors have debugging capabilities, or can be customized and added for specific programming languages.  
+- *Syntax highlighting* Adds colors and text formatting to code, makes it easier to read. Most editors allow customized syntax highlighting.
+- *Browser Extensions and Integrations* Additions that are specialized for developers, by developers, for access to additional tools that aren't built into the base editor. For example, many developers also need a way to document their code and explain how it works and will install a spell check extension to check for typos. Most of these additions are intended for use within a specific editor, and most editors come with a way to search for available extensions.
+- *Customization* Most editors are extremely customizable, and each developer will have their own unique development environment that suits their needs. Many also allow developers to create their own extension.
 
 ### Browsers
 
 Another crucial tool is the browser. Web developers rely on the browser to observe how their code runs on the web, it's also used to view visual elements of a web page that are written in the editor, like HTML.
 
-Many broswers come with developer tools (Dev tools) that contain a set of helpful features and information to assist developers to collect and capture important insights about their application. For example: 
+Many browsers come with *developer tools* (Dev tools) that contain a set of helpful features and information to assist developers to collect and capture important insights about their application. For example: If a web page has errors, it's sometimes helpful to know when they occurred. Dev tools in a browser can be configured to capture this information.
 
 ### Command Line Tools
 ### Documentation
+
+✅ Do some research: Now that you know the basics of a web developer's environment, compare and contrast it with a web designer's environment.
 
 🚀 Challenge: TODO add a challenge
 
