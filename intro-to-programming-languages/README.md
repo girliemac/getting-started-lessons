@@ -15,9 +15,11 @@ In this lesson, we'll cover:
 
 ## What is Programming?
 
-Programming (also known as coding) is the process of writing instructions to a device, such as a computer or mobile device. We write these instructions with a programming language, which is then interpreted by the device. These set of instructions may be referred to by various names, but *program*, *computer program*, *application (app)*, and *executable* are a few popular names.
+Programming (also known as coding) is the process of writing instructions to a device, such as a computer or mobile device. We write these instructions with a programming language, which is then interpreted by the device. These sets of instructions may be referred to by various names, but *program*, *computer program*, *application (app)*, and *executable* are a few popular names.
 
-A *program* can be anything that is written with code; websites, games, and phone apps are programs. While it's possible to create a program without writing code, the underlying logic is interpreted to the device and that logic was most likely written with code. A program that is *running* or *executing code*, is carrying out instructions. The device that you're currently reading this lesson with is running a program to print it to your screen.
+A *program* can be anything that is written with code; websites, games, and phone apps are programs. While it's possible to create a program without writing code, the underlying logic is interpreted to the device and that logic was most likely written with code. A program that is *running* or *executing code* is carrying out instructions. The device that you're currently reading this lesson with is running a program to print it to your screen.
+
+✅ Do a little research: who is considered to have been the world's first computer programmer?
 
 ## Programming Languages
 
@@ -66,15 +68,19 @@ back add r0,r1
  end
 ```
 
-Believe it or not, *they're both doing the same thing*: printing the fibonnachi sequence up to 10.
+Believe it or not, *they're both doing the same thing*: printing the fibonacci sequence up to 10.
+
+✅ A fibonacci sequence is [defined](https://en.wikipedia.org/wiki/Fibonacci_number) as a set of numbers such that each number is the sum of the two preceding ones, starting from 0 and 1.
 
 ## Elements of a program
 
 A single instruction in a program is called a *statement* and will usually have a character or line spacing that marks where the instruction ends, or *terminates*. How a program terminates varies with each language.
 
-Most programs rely on using data from a user or elsewhere, where statements may rely on data to carry out instructions. Data can change how a program behaves, so programming languages come with a way to temporarily store data that can be used later called *variables*. Variables are statements that instruct a device to save data in its memory. Variables in programs are similar to ones in algebra, where they have a unique name and it value may change over time.
+Most programs rely on using data from a user or elsewhere, where statements may rely on data to carry out instructions. Data can change how a program behaves, so programming languages come with a way to temporarily store data that can be used later. This data is called *variables*. Variables are statements that instruct a device to save data in its memory. Variables in programs are similar to ones in algebra, where they have a unique name and their value may change over time.
 
 There's a chance that some statements will not be executed by a device. This is usually by design when written by the developer or by accident when an unexpected error occurs. This type of control of an application makes it more robust and maintainable. Typically these changes in control happen when certain decisions are met. A common statement in modern programming languages to control how a program is run is the `if..else` statement.
+
+✅ You'll learn more about this type of statement in subsequent lessons
 
 ## Tools of the Trade
 
