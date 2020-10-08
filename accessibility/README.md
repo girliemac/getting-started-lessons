@@ -17,7 +17,7 @@ This quote perfectly highlights the importance of creating accessible websites. 
 
 One of the best-known accessibility tools are screen readers.
 
-[Screen readers](https://en.wikipedia.org/wiki/Screen_reader) are commonly used clients for those with vision impairments. Just as we spend time ensuring a browser properly conveys the information we wish to share, we must also ensure a screen reader does the same.
+[Screen readers](https://en.wikipedia.org/wiki/Screen_reader) are commonly used clients for those with vision impairments. As we spend time ensuring a browser properly conveys the information we wish to share, we must also ensure a screen reader does the same.
 
 At its most basic, a screen reader will read a page from top to bottom audibly. If your page is all text, the reader will convey the information in a similar fashion to a browser. Of course, web pages are rarely purely text; they will contain links, graphics, color, and other visual components. Care must be taken to ensure that this information is read correctly by a screen reader.
 
@@ -55,7 +55,7 @@ People see the world in different ways, and this includes colors. When selecting
 
 ### Properly highlight text
 
-Highlighting text by color, [font weight](https://developer.mozilla.org/docs/Web/CSS/font-weight), or other [text decoration](https://developer.mozilla.org/docs/Web/CSS/text-decoration) does not inherently inform a screen reader of its importance. A word could be bold because it's a key word, or simply because its the first word and the designer decided it should be bold.
+Highlighting text by color, [font weight](https://developer.mozilla.org/docs/Web/CSS/font-weight), or other [text decoration](https://developer.mozilla.org/docs/Web/CSS/text-decoration) does not inherently inform a screen reader of its importance. A word could be bold because it's a key word, or because its the first word and the designer decided it should be bold.
 
 When a particular phrase needs to be highlighted, use the `<strong>` or `<em>` elements. These will indicate to a screen reader that those items are important.
 
@@ -87,11 +87,11 @@ Remember, screen readers are a different interface from browsers with a differen
 
 ### The problem with using the URL
 
-Screen readers read the text. If a URL appears in the text, the screen reader will read the URL. Generally speaking, the URL does not convey meaningful information, and just sounds annoying. You may have experienced this if your phone has ever audibly read a text message with a URL.
+Screen readers read the text. If a URL appears in the text, the screen reader will read the URL. Generally speaking, the URL does not convey meaningful information, and can sound annoying. You may have experienced this if your phone has ever audibly read a text message with a URL.
 
 ### The problem with "click here"
 
-Screen readers also have the ability to read just the hyperlinks on a page, much in the same way a sighted person would scan a page for links. If the link text is always "click here", all the user will hear is "click here, click here, click here, click here, click here, ..." All links are now indistinguishable from one another.
+Screen readers also have the ability to read only the hyperlinks on a page, much in the same way a sighted person would scan a page for links. If the link text is always "click here", all the user will hear is "click here, click here, click here, click here, click here, ..." All links are now indistinguishable from one another.
 
 ### Good link text
 
@@ -205,7 +205,7 @@ A web accessible to some is not a truly 'world-wide web'. The best way to ensure
 
 ## Review & Self Study
 
-Many governments have laws regarding accessibility requirements. Read up on your home country's accessibility laws. What is covered, and what isn't? An example is [this government web site](https://accessibility.blog.gov.uk/) from the UK.
+Many governments have laws regarding accessibility requirements. Read up on your home country's accessibility laws. What is covered, and what isn't? An example is [this government web site](https://accessibility.blog.gov.uk/).
 
 **Assignment**: [Analyze a non-accessible web site](assignment.md)
 
