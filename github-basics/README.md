@@ -69,7 +69,7 @@ Then type:
 
 This sends your commits in your “main” branch to GitHub. 
 
-If you want to continue making changes and pushing them to GitHub you’ll just need to use the following three commands:
+If you want to continue making changes and pushing them to GitHub you’ll need to use the following three commands:
 
 ```
 git add .
@@ -85,7 +85,7 @@ A great Git commit subject line completes the following sentence:
 If applied, this commit will <your subject line here>
 
 For the subject use the imperative, present tense: "change" not "changed" nor "changes". 
-Just as in the subject, in the body (optional) also use the imperative, present tense. The body should include the motivation for the change and contrast this with previous behavior. You're explaining the `why`, not the `how`.
+As in the subject, in the body (optional) also use the imperative, present tense. The body should include the motivation for the change and contrast this with previous behavior. You're explaining the `why`, not the `how`.
 
 ✅ Take a few minutes to surf around GitHub. Can you find a really great commit message? Can you find a really minimal one? What information do you think is the most important and useful to convey in a commit message?
 
