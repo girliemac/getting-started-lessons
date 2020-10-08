@@ -1,26 +1,17 @@
 # Introduction to Programming Languages and Tools of the Trade
 
-This lesson covers the basics programming languages. The topics covered here apply to most modern programming languages today.
+This lesson covers the basics of programming languages. The topics covered here apply to most modern programming languages today. In the 'Tools of the Trade' section, you'll learn about useful software that helps you as a developer.
 
 ## [Pre-lecture quiz](.github/pre-lecture-quiz.md)
 
 ### Introduction
 
 In this lesson, we'll cover:
+
 - What is programming?
 - Types of programming languages
 - Basic elements of a program
-
-> Notes
-
-### Preparation
-
-Preparatory steps to start this lesson
-Demo repository / folder, locally as well as remote
-
----
-
-[Step through content in blocks]
+- Useful software and tooling for the professional developer
 
 ## What is Programming?
 
@@ -84,6 +75,14 @@ A single instruction in a program is called a *statement* and will usually have 
 Most programs rely on using data from a user or elsewhere, where statements may rely on data to carry out instructions. Data can change how a program behaves, so programming languages come with a way to temporarily store data that can be used later called *variables*. Variables are statements that instruct a device to save data in its memory. Variables in programs are similar to ones in algebra, where they have a unique name and it value may change over time.
 
 There's a chance that some statements will not be executed by a device. This is usually by design when written by the developer or by accident when an unexpected error occurs. This type of control of an application makes it more robust and maintainable. Typically these changes in control happen when certain decisions are met. A common statement in modern programming languages to control how a program is run is the `if..else` statement.
+
+## Tools of the Trade
+
+In this section, you'll learn about some software that you might find very useful as you start your professional development journey.
+
+🚀 Challenge:
+
+## [Post-lecture quiz](.github/post-lecture-quiz.md)
 
 ## Review & Self Study
 
