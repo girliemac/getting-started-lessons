@@ -80,10 +80,12 @@ There's a chance that some statements will not be executed by a device. This is 
 
 In this section, you'll learn about some software that you might find very useful as you start your professional development journey.
 
-🚀 Challenge:
+🚀 Challenge: TODO add a challenge
 
 ## [Post-lecture quiz](.github/post-lecture-quiz.md)
 
 ## Review & Self Study
 
-**Assignment Due [MM/YY]**: [Assignment Name](assignment.md)
+**Assignment**: [Assignment Name](assignment.md)
+
+
