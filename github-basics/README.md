@@ -279,4 +279,4 @@ Practice, practice, practice. GitHub has great learning paths available via [lab
 
 You'll also find more advanced labs. 
 
-**Assignment Due [MM/YY]**: Complete [the First Week on GitHub training lab](https://lab.github.com/githubtraining/first-week-on-github)
+**Assignment**: Complete [the First Week on GitHub training lab](https://lab.github.com/githubtraining/first-week-on-github)
