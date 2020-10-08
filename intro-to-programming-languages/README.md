@@ -23,7 +23,7 @@ A *program* can be anything that is written with code; websites, games, and phon
 
 ## Programming Languages
 
-Programming languages serve a main purpose: for developers to build instructions to send to a device. Devices only can understand binary (1s and 0s), and for *most* developers that's not a very efficient way to communicate. Programming languages are a vehicle for communication between a humans and computers.
+Programming languages serve a main purpose: for developers to build instructions to send to a device. Devices only can understand binary (1s and 0s), and for *most* developers that's not a very efficient way to communicate. Programming languages are a vehicle for communication between humans and computers.
 
 Programming languages come in different formats and may serve different purposes. For example, JavaScript is primarily used for web applications, while Bash is primarily used for operating systems.
 
@@ -86,6 +86,26 @@ There's a chance that some statements will not be executed by a device. This is 
 
 In this section, you'll learn about some software that you might find very useful as you start your professional development journey.
 
+### Editors
+
+One of the most crucial tools for software development is the editor. Editors are where you write your code and sometimes where you will run your code.
+
+Developers rely on editors for a few additional reasons:
+
+- *Debugging* Discovering bugs and errors by stepping through code, line by line.
+- *Syntax highlighting* Adds colors to code, makes it easier to read. Most editors allow customized syntax highliting.
+- *Browser Extensions and Integrations* Additions that are specialized for developers, by developers for access to additional tools that aren't built into the base editor.
+- *Customization* The great thing about most editors is that they're extremely customizeable, and each developer will have their own unique development environment that suits their needs.
+
+### Browsers
+
+Another crucial tool is the browser. Web developers rely on the browser to observe how their code runs on the web, it's also used to view visual elements of a web page that are written in the editor, like HTML.
+
+Many broswers come with developer tools (Dev tools) that contain a set of helpful features and information to assist developers to collect and capture important insights about their application. For example: 
+
+### Command Line Tools
+### Documentation
+
 🚀 Challenge: TODO add a challenge
 
 ## [Post-lecture quiz](.github/post-lecture-quiz.md)
@@ -93,5 +113,3 @@ In this section, you'll learn about some software that you might find very usefu
 ## Review & Self Study
 
 **Assignment**: [Assignment Name](assignment.md)
-
-
