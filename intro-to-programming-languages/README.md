@@ -99,14 +99,24 @@ Developers rely on editors for a few additional reasons:
 - *Browser Extensions and Integrations* Additions that are specialized for developers, by developers, for access to additional tools that aren't built into the base editor. For example, many developers also need a way to document their code and explain how it works and will install a spell check extension to check for typos. Most of these additions are intended for use within a specific editor, and most editors come with a way to search for available extensions.
 - *Customization* Most editors are extremely customizable, and each developer will have their own unique development environment that suits their needs. Many also allow developers to create their own extension.
 
+#### Popular Editors and Web Development Extensions
+
 ### Browsers
 
 Another crucial tool is the browser. Web developers rely on the browser to observe how their code runs on the web, it's also used to view visual elements of a web page that are written in the editor, like HTML.
 
-Many browsers come with *developer tools* (Dev tools) that contain a set of helpful features and information to assist developers to collect and capture important insights about their application. For example: If a web page has errors, it's sometimes helpful to know when they occurred. Dev tools in a browser can be configured to capture this information.
+Many browsers come with *developer tools* (DevTools) that contain a set of helpful features and information to assist developers to collect and capture important insights about their application. For example: If a web page has errors, it's sometimes helpful to know when they occurred. DevTools in a browser can be configured to capture this information.
+
+#### Popular Browsers and DevTools
 
 ### Command Line Tools
+
+#### Popular Command Line Tools
+
 ### Documentation
+
+#### Popular Documentation on Web Development
+
 
 ✅ Do some research: Now that you know the basics of a web developer's environment, compare and contrast it with a web designer's environment.
 
