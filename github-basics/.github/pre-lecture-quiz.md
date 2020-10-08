@@ -1,19 +1,13 @@
 *Complete this quiz in class*
 
-1. [Q1]
+1. How do you create a Git repo?
 
-- [ ] [Option 1]
-- [ ] [Option 2]
-- [ ] [Option 3]
+- [ ] git create
+- [ ] git start
+- [ ] git init
 
-2. [Q2]
+2. What does `git add` do?
 
-- [ ] [Option 1]
-- [ ] [Option 2]
-- [ ] [Option 3]
-
-3. [Q3]
-   
-- [ ] [Option 1]
-- [ ] [Option 2]
-- [ ] [Option 3]
+- [ ] Commits your code
+- [ ] Adds your files to a staging area for tracking
+- [ ] Adds your files to GitHub
