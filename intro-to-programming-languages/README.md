@@ -68,9 +68,9 @@ back add r0,r1
  end
 ```
 
-Believe it or not, *they're both doing the same thing*: printing the fibonacci sequence up to 10.
+Believe it or not, *they're both doing the same thing*: printing a Fibonacci sequence up to 10.
 
-✅ A fibonacci sequence is [defined](https://en.wikipedia.org/wiki/Fibonacci_number) as a set of numbers such that each number is the sum of the two preceding ones, starting from 0 and 1.
+✅ A Fibonacci sequence is [defined](https://en.wikipedia.org/wiki/Fibonacci_number) as a set of numbers such that each number is the sum of the two preceding ones, starting from 0 and 1.
 
 ## Elements of a program
 
@@ -101,12 +101,14 @@ Developers rely on editors for a few additional reasons:
 
 #### Popular Editors and Web Development Extensions
 
-- Visual Studio Code
-  - Azure
-- Atom
-  - 3 Exts
-- Notepad++
-  - 3 Exts
+- [Visual Studio Code](https://code.visualstudio.com/)
+  - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+  - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack)
+  - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Atom](https://atom.io/)
+  - [spell-check](https://atom.io/packages/spell-check)
+  - [teletype](https://atom.io/packages/teletype)
+  - [atom-beautify](https://atom.io/packages/atom-beautify)
 
 ### Browsers
 
@@ -116,9 +118,9 @@ Many browsers come with *developer tools* (DevTools) that contain a set of helpf
 
 #### Popular Browsers and DevTools
 
-- Edge
-- Chrome
-- Firefox
+- [Edge](https://docs.microsoft.com/microsoft-edge/devtools-guide-chromium)
+- [Chrome](https://developers.google.com/web/tools/chrome-devtools/)
+- [Firefox](https://developer.mozilla.org/docs/Tools)
 
 ### Command Line Tools
 
@@ -128,26 +130,26 @@ Some developers prefer a less graphical view for their daily tasks and rely on t
 
 Options for the command line will differ based on the operating system you use.
 
-*💻 = tool comes preinstalled on the operating system.*
+*💻 = comes preinstalled on the operating system.*
 
 #### Windows
 
-- [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7) 💻
-- [Command Line](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) (also known as CMD) 💻
-- [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/)
+- [Powershell](https://docs.microsoft.com/powershell/scripting/overview?view=powershell-7) 💻
+- [Command Line](https://docs.microsoft.com/windows-server/administration/windows-commands/windows-commands) (also known as CMD) 💻
+- [Windows Terminal](https://docs.microsoft.com/windows/terminal/)
 - mintty
   
 #### MacOS
 
 - [Terminal](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) 💻
 - [iTerm](https://iterm2.com/)
-- [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7)
+- [Powershell](https://docs.microsoft.com/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7)
 
 #### Linux
 
 - [Bash](https://www.gnu.org/software/bash/manual/html_node/index.html) 💻
 - [KDE Konsole](https://docs.kde.org/trunk5/en/applications/konsole/index.html)
-- [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7)
+- [Powershell](https://docs.microsoft.com/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7)
 
 #### Popular Command Line Tools
 
