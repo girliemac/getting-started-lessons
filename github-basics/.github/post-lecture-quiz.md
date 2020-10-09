@@ -1,17 +1,12 @@
-*Complete this quiz along with your submission by checking one answer per question.*
+*Complete this quiz by checking one answer per question.*
 
-You will need to complete the following learn module(s) to complete the quiz:
-
-[Learn Link 1]()
-[Learn Link 2]()
-
-1. The following sentence describes what? A place to compare and discuss the differences introduced on a branch with reviews, comments, integrated tests, and more
+1. A place to compare and discuss the differences introduced on a branch with reviews, comments, integrated tests, and more is:
 
 - [ ] GitHub
-- [ ] Pull Request
+- [ ] A Pull Request
 - [ ] A feature branch
 
-2. How would you get all commits from a remote branch?
+2. How would you get all the commits from a remote branch?
 
 - [ ] `git fetch`
 - [ ] `git pull`
