@@ -111,9 +111,39 @@ Many browsers come with *developer tools* (DevTools) that contain a set of helpf
 
 ### Command Line Tools
 
+Some developers prefer a less graphical view for their daily tasks and rely on the command line to achieve this. Developing code requires a significant amount of typing, and some developers prefer to not distrupt their flow on the keayboard and will use keyoard shortcuts to swap between desktop windows, work on different files, and use tools. Most tasks can be completed with a mouse, but one benefit of using the command line is that a lot can be done with command line tools without the need of swapping between the mouse and keyboard. Another benefit of the command line is that they're configurable and you can save your custom configuration, change it later, and also import it to new development machines. Because development environments are so unique to each developer, some will avoid using the command line, some will rely on it entirely, and some prefer a mix of the two.
+
+### Popular Command Line Options
+
+Options for the command line will differ based on the operating system you use.
+
+*💻 = tool comes preinstalled on the operating system.*
+
+#### Windows
+
+- Powershell 💻
+- Command Line (CMD) 💻
+- mintty
+  
+#### MacOS
+
+- Terminal 💻
+- iTerm
+- Hyper
+- Powershell
+
+#### Linux
+
+- Terminal 💻
+- KDE Konsole (💻 on)
+
 #### Popular Command Line Tools
 
+- Git (💻 on most operating sytems)
+
 ### Documentation
+
+When a developer wants to learn something new, they'll most likely turn to documentation to learn how to use it. Developers rely on documentation often to guide them through how to use tools and languages properly, and also to gain deeper knowledge of how it works.
 
 #### Popular Documentation on Web Development
 
