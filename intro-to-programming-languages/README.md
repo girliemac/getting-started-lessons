@@ -168,7 +168,7 @@ When a developer wants to learn something new, they'll most likely turn to docum
 
 ✅ Do some research: Now that you know the basics of a web developer's environment, compare and contrast it with a web designer's environment.
 
-🚀 Challenge: TODO add a challenge
+🚀 Challenge: Compare some programming languages. What are some of the unique traits of JavaScript vs. Java? How about COBOL vs. Go?
 
 ## [Post-lecture quiz](.github/post-lecture-quiz.md)
 
