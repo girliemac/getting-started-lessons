@@ -101,6 +101,13 @@ Developers rely on editors for a few additional reasons:
 
 #### Popular Editors and Web Development Extensions
 
+- Visual Studio Code
+  - Azure
+- Atom
+  - 3 Exts
+- Notepad++
+  - 3 Exts
+
 ### Browsers
 
 Another crucial tool is the browser. Web developers rely on the browser to observe how their code runs on the web, it's also used to view visual elements of a web page that are written in the editor, like HTML.
@@ -108,6 +115,10 @@ Another crucial tool is the browser. Web developers rely on the browser to obser
 Many browsers come with *developer tools* (DevTools) that contain a set of helpful features and information to assist developers to collect and capture important insights about their application. For example: If a web page has errors, it's sometimes helpful to know when they occurred. DevTools in a browser can be configured to capture this information.
 
 #### Popular Browsers and DevTools
+
+- Edge
+- Chrome
+- Firefox
 
 ### Command Line Tools
 
@@ -121,25 +132,28 @@ Options for the command line will differ based on the operating system you use.
 
 #### Windows
 
-- Powershell 💻
-- Command Line (CMD) 💻
+- [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7) 💻
+- [Command Line](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) (also known as CMD) 💻
+- [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/)
 - mintty
   
 #### MacOS
 
-- Terminal 💻
-- iTerm
-- Hyper
-- Powershell
+- [Terminal](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) 💻
+- [iTerm](https://iterm2.com/)
+- [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7)
 
 #### Linux
 
-- Terminal 💻
-- KDE Konsole (💻 on)
+- [Bash](https://www.gnu.org/software/bash/manual/html_node/index.html) 💻
+- [KDE Konsole](https://docs.kde.org/trunk5/en/applications/konsole/index.html)
+- [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7)
 
 #### Popular Command Line Tools
 
-- Git (💻 on most operating sytems)
+- [Git](https://git-scm.com/) (💻 on most operating sytems)
+- [NPM](https://www.npmjs.com/)
+- [Yarn](https://classic.yarnpkg.com/en/docs/cli/)
 
 ### Documentation
 
@@ -147,6 +161,8 @@ When a developer wants to learn something new, they'll most likely turn to docum
 
 #### Popular Documentation on Web Development
 
+- [Mozilla Developer Network](https://developer.mozilla.org/docs/Web)
+- [Frontend Masters](https://frontendmasters.com/learn/)
 
 ✅ Do some research: Now that you know the basics of a web developer's environment, compare and contrast it with a web designer's environment.
 
