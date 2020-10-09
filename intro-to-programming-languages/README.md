@@ -124,7 +124,7 @@ Many browsers come with *developer tools* (DevTools) that contain a set of helpf
 
 ### Command Line Tools
 
-Some developers prefer a less graphical view for their daily tasks and rely on the command line to achieve this. Developing code requires a significant amount of typing, and some developers prefer to not distrupt their flow on the keayboard and will use keyoard shortcuts to swap between desktop windows, work on different files, and use tools. Most tasks can be completed with a mouse, but one benefit of using the command line is that a lot can be done with command line tools without the need of swapping between the mouse and keyboard. Another benefit of the command line is that they're configurable and you can save your custom configuration, change it later, and also import it to new development machines. Because development environments are so unique to each developer, some will avoid using the command line, some will rely on it entirely, and some prefer a mix of the two.
+Some developers prefer a less graphical view for their daily tasks and rely on the command line to achieve this. Developing code requires a significant amount of typing, and some developers prefer to not disrupt their flow on the keyboard and will use keyboard shortcuts to swap between desktop windows, work on different files, and use tools. Most tasks can be completed with a mouse, but one benefit of using the command line is that a lot can be done with command line tools without the need of swapping between the mouse and keyboard. Another benefit of the command line is that they're configurable and you can save your custom configuration, change it later, and also import it to new development machines. Because development environments are so unique to each developer, some will avoid using the command line, some will rely on it entirely, and some prefer a mix of the two.
 
 ### Popular Command Line Options
 
@@ -137,7 +137,7 @@ Options for the command line will differ based on the operating system you use.
 - [Powershell](https://docs.microsoft.com/powershell/scripting/overview?view=powershell-7) 💻
 - [Command Line](https://docs.microsoft.com/windows-server/administration/windows-commands/windows-commands) (also known as CMD) 💻
 - [Windows Terminal](https://docs.microsoft.com/windows/terminal/)
-- mintty
+- [mintty](https://mintty.github.io/)
   
 #### MacOS
 
