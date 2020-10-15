@@ -13,6 +13,6 @@
 
 1. Which one of these tools would most most likely be in a web developer's environment?
 
-- [ ] Hardware, like a Rasberry Pi
+- [ ] Hardware, like a Raspberry Pi
 - [ ] Browser DevTools
 - [ ] Operating system documentation
