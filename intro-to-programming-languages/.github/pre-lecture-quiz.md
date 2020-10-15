@@ -1,19 +1,18 @@
 *Complete this quiz in class*
 
-1. [Q1]
+1. [A program be created without its creator writing any code]
 
-- [ ] [Option 1]
-- [ ] [Option 2]
-- [ ] [Option 3]
+- [ ] [True]
+- [ ] [False]
 
-2. [Q2]
+1. [Low level languages are a popular choice for:]
 
-- [ ] [Option 1]
-- [ ] [Option 2]
-- [ ] [Option 3]
+- [ ] [Websites]
+- [ ] [Hardware]
+- [ ] [Video game software]
 
-3. [Q3]
+1. [Which one of these tools would most most likely be in a web developer's environment?]
    
-- [ ] [Option 1]
-- [ ] [Option 2]
-- [ ] [Option 3]
+- [ ] [Hardware, like a Rasberry Pi]
+- [ ] [Browser DevTools]
+- [ ] [Operating system documentation]
