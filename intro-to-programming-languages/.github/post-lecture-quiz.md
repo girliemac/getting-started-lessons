@@ -1,24 +1,18 @@
 *Complete this quiz along with your submission by checking one answer per question.*
 
-You will need to complete the following learn module(s) to complete the quiz:
+1. What language would you most likely use to create a website?
 
-[Learn Link 1]()
-[Learn Link 2]()
+- [ ] Machine Code
+- [ ] JavaScript
+- [ ] Bash
 
-1. [Q1]
+1. Development environments are unique to each developer
 
-- [ ] [Option 1]
-- [ ] [Option 2]
-- [ ] [Option 3]
+- [ ] True
+- [ ] False
 
-2. [Q2]
+1. A what will a developer do to fix buggy code?
 
-- [ ] [Option 1]
-- [ ] [Option 2]
-- [ ] [Option 3]
-
-3. [Q3]
-   
-- [ ] [Option 1]
-- [ ] [Option 2]
-- [ ] [Option 3]
+- [ ] Syntax highlighting
+- [ ] Debugging
+- [ ] Code formatting
