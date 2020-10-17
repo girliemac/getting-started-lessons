@@ -177,4 +177,4 @@ When a developer wants to learn something new, they'll most likely turn to docum
 
 ## Review & Self Study
 
-**Assignment**: [Assignment Name](assignment.md)
+**Assignment**: [Reading the Docs](assignment.md)
