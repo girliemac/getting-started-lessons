@@ -87,7 +87,7 @@ There's a chance that some statements will not be executed by a device. This is 
 
 ## Tools of the Trade
 
-[![Tools of the Trade](https://www.youtube.com/embed/69WJeXGBdxg/0.jpg)](https://www.youtube.com/embed/69WJeXGBdxg "Tools of the Trade")
+[![Tools of the Trade](https://img.youtube.com/vi/69WJeXGBdxg/0.jpg)](https://youtube.com/watch?v=69WJeXGBdxg "Tools of the Trade")
 
 In this section, you'll learn about some software that you might find very useful as you start your professional development journey.
 
