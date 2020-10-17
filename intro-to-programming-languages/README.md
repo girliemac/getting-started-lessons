@@ -87,7 +87,7 @@ There's a chance that some statements will not be executed by a device. This is 
 
 ## Tools of the Trade
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/69WJeXGBdxg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Tools of the Trade](https://www.youtube.com/embed/69WJeXGBdxg/0.jpg)](https://www.youtube.com/embed/69WJeXGBdxg "Tools of the Trade")
 
 In this section, you'll learn about some software that you might find very useful as you start your professional development journey.
 
