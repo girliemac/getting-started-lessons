@@ -87,6 +87,8 @@ There's a chance that some statements will not be executed by a device. This is 
 
 ## Tools of the Trade
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/69WJeXGBdxg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 In this section, you'll learn about some software that you might find very useful as you start your professional development journey.
 
 A **development environment** is a unique set of tools and features that a developer will use often when writing software. Some of these tools have been customized for a developer specific needs, and may change over time if a developer changes priorities in work or personal projects, or when they use a different programming language. Development environments are as unique as the developers who use them.
