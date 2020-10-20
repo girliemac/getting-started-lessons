@@ -4,9 +4,9 @@ In this section of the curriculum, you will be introduced to non project-based c
 
 ### Topics
 
-1. [Introduction to Programming Languages and Tools of the Trade](intro-to-programming-languages/README.md)
-2. [Basics of GitHub](github-basics/README.md)
-3. [Basics of Accessibility](accessibility/README.md)
+1. [Introduction to Programming Languages and Tools of the Trade](1-intro-to-programming-languages/README.md)
+2. [Basics of GitHub](2-github-basics/README.md)
+3. [Basics of Accessibility](3-accessibility/README.md)
 
 ### Credits
 
