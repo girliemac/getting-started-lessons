@@ -263,7 +263,11 @@ Projects might also have discussion in forums, mailing lists, or chat channels l
 
 ✅ Take a look around your new GitHub repo and try a few things, like editing settings, adding information to your repo, and creating a project (like a Kanban board). There's a lot you can do!
 
-🚀 Challenge: Pair with a friend to work on each other's code. Create a project collaboratively, fork code, create branches, and merge changes.
+--
+
+## 🚀 Challenge 
+
+Pair with a friend to work on each other's code. Create a project collaboratively, fork code, create branches, and merge changes.
 
 ## [Post-lecture quiz](.github/post-lecture-quiz.md)
 
@@ -279,4 +283,6 @@ Practice, practice, practice. GitHub has great learning paths available via [lab
 
 You'll also find more advanced labs. 
 
-**Assignment**: Complete [the First Week on GitHub training lab](https://lab.github.com/githubtraining/first-week-on-github)
+## Assignment 
+
+Complete [the First Week on GitHub training lab](https://lab.github.com/githubtraining/first-week-on-github)

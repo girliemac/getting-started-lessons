@@ -149,7 +149,11 @@ Some users are unable to use a mouse or trackpad, instead relying on keyboard in
 
 A web accessible to some is not a truly 'world-wide web'. The best way to ensure the sites you create are accessible is to incorporate accessibility best practices from the start. While there are extra steps involved, incorporating these skills into your workflow now will mean all pages you create will be accessible.
 
-🚀 Challenge: Take this HTML, and rewrite it to be as accessible as possible, given the topics you learned.
+---
+
+## 🚀 Challenge
+
+Take this HTML and rewrite it to be as accessible as possible, given the strategies you learned.
 
 ```html
 <!DOCTYPE html>
@@ -207,8 +211,8 @@ A web accessible to some is not a truly 'world-wide web'. The best way to ensure
 
 Many governments have laws regarding accessibility requirements. Read up on your home country's accessibility laws. What is covered, and what isn't? An example is [this government web site](https://accessibility.blog.gov.uk/).
 
-**Assignment**: [Analyze a non-accessible web site](assignment.md)
+## Assignment
+ 
+[Analyze a non-accessible web site](assignment.md)
 
 Credits: [Turtle Ipsum](https://github.com/Instrument/semantic-html-sample) by Instrument
-
-> Author: Christopher Harrison
