@@ -263,7 +263,7 @@ Projects might also have discussion in forums, mailing lists, or chat channels l
 
 ✅ Take a look around your new GitHub repo and try a few things, like editing settings, adding information to your repo, and creating a project (like a Kanban board). There's a lot you can do!
 
---
+---
 
 ## 🚀 Challenge 
 
